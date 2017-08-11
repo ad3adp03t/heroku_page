@@ -1,0 +1,66 @@
+<! doctype HTML5>
+
+<html lang = "en">
+    <head>
+        <meta charset = "utf - 8">
+
+        <title> Coin Page </title>
+        <meta name = "description" content = "Nav Bar Homework">
+        <meta name = "author" content = "Site Point">
+
+        <link rel = "stylesheet" href = "css/coin_style.css">
+
+    </head>
+
+    <body>
+        <div id = "background">  
+        </div>
+
+        <div id = "NavBar">
+            <ul id = "socialsites">
+                <li> <a href = "http://www.facebook.com/ad3adp03t"> <img src = "./img/fb.png" alt = "facebook logo"> </a> </li>
+            </ul>
+        </div>
+
+        <div id = "ddm">
+            <ul id = "info">
+                <li class = "shop">
+                    <a href="javascript:void(0)"
+                    class = "dropbtn"> SHOP </a>
+                    <div class = "shop-content">
+                        <a href = "http://www.amazon.com">Amazon</a>
+                        <a href = "http://www.ebay.com">Ebay</a>
+                    </div>
+                </li>
+                <li id = "ho"> <a href = /home Home </a> Home </a> </li>
+                <li id = "gl"> <a href = "http://www.google.com"> Google </a> </li>
+                <li id = "cc"> <a href = /user_change> Coin changer </a> </li>
+            </ul>
+        </div>
+
+        <div id = "coin_changer">   
+
+          How much change would you like converted?
+
+            <form method = "post" action = "/user_change">
+                <input type = 'number' min = '1'  name = 'cents_received'>
+                <input type = "submit" value = "Calculate Change">
+            </form>
+
+        
+        </div>
+
+        <div id = "footer">
+            <ul id = "mmlink">
+                <li> <a href = "http://www.minedminds.org" target = "_blank"> <img src = "./img/mm.png" alt = "minedminds logo"> </a> </li>
+            © Mined Minds
+            </ul>
+        </div>
+        
+        <script>
+            document.getElementById("demo").innerHTML = Date();
+        </script>
+
+    </body>
+
+</html>
